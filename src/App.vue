@@ -3,17 +3,13 @@
     <H1>Hola Mundo</H1>
   </div>
   <div>
-    <ContadorView/>    
+      <ContadorView/>
   </div>
 </template>
 
-<script>
+<script setup>
 import ContadorView from './views/ContadorView.vue';
-export default{
-    components: {
-        ContadorView
-    }
-  }
+
 
 
 </script>
