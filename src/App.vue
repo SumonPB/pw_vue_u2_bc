@@ -1,14 +1,22 @@
 <template>
   <div>
-    <H1>Hola Mundo</H1>
   </div>
   <div>
       <ContadorView/>
   </div>
+  <div>
+
+  </div>
 </template>
 
-<script setup>
+<script >
 import ContadorView from './views/ContadorView.vue';
+export default{
+    components: {
+        ContadorView
+    }
+  }
+
 
 
 
