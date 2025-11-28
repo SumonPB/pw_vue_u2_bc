@@ -2,7 +2,8 @@
   <div>
   </div>
   <div>
-      <ContadorView/>
+      <!--<ContadorView/> -->
+      <!--Nuevo--><DirectivasView/>
   </div>
   <div>
 
@@ -11,9 +12,11 @@
 
 <script >
 import ContadorView from './views/ContadorView.vue';
+import DirectivasView from './views/DirectivasView.vue'; //nuevo
 export default{
     components: {
-        ContadorView
+        ContadorView,
+        DirectivasView //nuevo
     }
   }
 

@@ -55,7 +55,7 @@ export default {
   inicio : {
     type: Number,
     default: 99,
-    validator(value){
+    validator(value){//validaciones
       return value>10;
     }
   },
