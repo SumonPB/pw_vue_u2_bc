@@ -24,7 +24,6 @@
         <thead>
             <th>Nombre</th>
             <th>Apellido</th>
-            <h1>Hola</h1>
         </thead>
         <tbody> 
             <!--Recordar al usar desestructracion de datos usar el nombre de las variables que usa el objeto para no tener conficiones-->
